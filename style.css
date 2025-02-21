@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+.delete-btn {
+    padding: 5px 10px;
+    color: white;
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+.drag-handle {
+    cursor: grab;
+}
+td:nth-child(2) {
+    user-select: text; 
+}
