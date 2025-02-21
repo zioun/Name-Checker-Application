@@ -9,7 +9,7 @@ function loadNames() {
                     <td class="drag-handle" draggable="true" data-index="${index}">${
       index + 1
     }</td>
-                    <td>${name}</td>  <!-- ✅ Name is now fully copyable -->
+                    <td>${name}</td>  <!-- Name is now fully copyable -->
                     <td><button class="delete-btn" onclick="deleteName(${index})">Delete</button></td>
                 `;
     table.appendChild(row);
